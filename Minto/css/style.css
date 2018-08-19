@@ -1,0 +1,174 @@
+@font-face {
+    font-family:SamoSansPro-Regular; /* Гарнитура шрифта */
+    src: url(fonts/SamoSansPro-Regular.otf); /* Путь к файлу со шрифтом */
+  }
+
+ @font-face {
+ 		font-family:StRyde-Regular; /* Гарнитура шрифта */
+ 		src: url(fonts/StRyde-Regular.otf); /* Путь к файлу со шрифтом */
+  }
+
+@font-face {
+ 		font-family:SofiaProLight; /* Гарнитура шрифта */
+ 		src: url(fonts/SofiaProLight.otf); /* Путь к файлу со шрифтом */
+  }
+
+.line{
+	height: 10px;
+	background: #a292b3;
+}
+
+.logo-head{
+	margin-top: 27px;
+}
+
+.menu-header ul{
+	list-style-type: none;
+}
+
+.menu-header li{
+	float: left;
+	margin-left: 50px;
+}
+
+.menu-header{
+	font-family: Segoe UI;
+	font-size: 19px;
+}
+
+.menu-header ul li a{
+	text-decoration: none;
+	color: #545454;
+}
+
+.menu-header img{
+	margin-left: -25px;
+	margin-bottom:-48px;
+}
+
+
+.minto-slider .slick-next:before {
+	content:url(../img/arrow-right.png);
+}
+
+
+.minto-slider .slick-prev:before {
+	content:url(../img/left-arrow.png);
+}
+
+.minto-slider{
+	text-align: center;
+	margin-top: 28px;
+	height: 485px;
+	background: url(../img/bg-slider.png) center no-repeat;
+}
+
+.minto-slider h2{
+	padding-top: 142px;
+	font-family: StRyde-Regular;
+	font-size: 117px;
+	color: #ffffff;
+  text-shadow: -4px 2px 0px #6a6270;
+}
+
+.minto-slider p{
+	font-family: SofiaProLight;
+	font-size: 31px;
+	color: #ffffff;
+	text-shadow: -1px 2px 0px #6a6270;
+}
+
+.mid-text{
+	text-align: center;
+	font-family: Segoe UI;
+	font-size: 23px;
+	font-style: italic;
+	color: #494848;
+	margin-top: 38px;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.mid-text span{
+ font-weight: bold;
+ color: #82699d;
+}
+
+.circle-img{
+	margin-top: 30px;
+}
+
+.circle-img p{
+	color: #000000;
+	font-family: Segoe UI;
+	font-size: 23px;
+	padding-top: 57px;
+}
+
+.circle-img p span{
+	font-weight: bold;
+}
+
+.circle-text{
+	margin-top: 75px;
+	font-family: Segoe UI;
+	border-bottom: 2px dotted #e2e2e2;
+	padding-bottom: 90px;
+}
+
+.circle-text h4 {
+	color: #505051;
+	font-size: 31px;
+	font-weight: bold;
+}
+
+.circle-text p{
+	color: #838383;
+	font-size: 15px;
+	line-height: 25px;
+	padding-top: 20px;
+}
+
+.circle-text a{
+ color: #82699d;
+ float: right;
+}
+
+.bottom-line{
+	margin-top: 38px;
+}
+
+.bottom-line ul{
+	list-style-type: none;
+}
+
+.bottom-line ul li{
+	float: left;
+	border:1px solid #e4e4e4;
+	height: 70px;
+	width: 267px;
+	background:#f5f5f5;
+}
+
+.bottom-line ul li img{
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+.bottom-cpr{
+	background: #e8e8e8;
+	margin-top: 60px;
+	min-height: 65px;
+}
+
+.cpr-text{
+	padding-top: 20px;
+	padding-left: 100px;
+}
+
+.contacts img{
+	padding-top: 18px;
+	padding-left: 18px;
+}
